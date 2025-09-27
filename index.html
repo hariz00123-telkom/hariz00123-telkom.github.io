@@ -1,1 +1,141 @@
-Achmad Atsir Hadiid Alhariz
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Saya - Hadyan Arkananta Ryandi</title>
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #ea8f07; /* Biru terang */
+            color: #dde4e5; /* Teks abu-abu muda */
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+        }
+
+        .container {
+            text-align: center;
+            padding: 40px 20px;
+        }
+
+        /* Foto Profil CONTAINER */
+        .profile-picture {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%; 
+            margin: 0 auto 20px;
+            border: 3px solid #ffffff; 
+            overflow: hidden; 
+        }
+        
+        /* Gambar di dalam lingkaran */
+        .profile-picture img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover; 
+            display: block;
+        }
+
+        /* Detail Diri */
+        h1 {
+            font-size: 2.5em;
+            margin-bottom: 5px;
+            color: #ffffff; 
+        }
+
+        h2 {
+            font-size: 1.2em;
+            color: #d5d6d6; 
+            margin-top: 0;
+            margin-bottom: 30px;
+        }
+
+        /* Tautan Sosial Media */
+        .social-links {
+            display: flex;
+            justify-content: center;
+            gap: 25px;
+        }
+
+        .social-links a {
+            text-decoration: none;
+            color: #dde4e5; 
+            font-size: 1em;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .social-icon {
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            margin-bottom: 5px;
+            border: 2px solid #ffffff; 
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 1.8em; 
+            background-color: #dde3e4; 
+        }
+        
+        /* Warna Ikon Font Awesome Asli */
+        .social-icon .fa-github {
+            color: #ffffff; 
+        }
+        
+        .social-icon .fa-instagram {
+            color: #E4405F; 
+        }
+
+        /* Efek Hover sederhana */
+        .social-links a:hover {
+            color: #ffffff;
+        }
+        .social-links a:hover .social-icon {
+            background-color: #ffffff; 
+            border-color: #b37c05;
+        }
+        .social-links a:hover .social-icon .fa-github {
+            color: #000000; 
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <div class="profile-picture">
+            <img 
+                src="foto merah.jpg"
+                alt="foto merah">
+        </div>
+
+        <h1>Achmad Atsir Hadiid Alhariz</h1>
+        
+        <h2>102022400175 | Rekayasa Industri | Sistem Informasi</h2>
+
+        <div class="social-links">
+            <a href="https://github.com/hariz00123-telkom" target="_blank">
+                <div class="social-icon">
+                    <i class="fab fa-github"></i>
+                </div>
+                GitHub
+            </a>
+            <a href="https://instagram.com/atsiiirrr" target="_blank">
+                <div class="social-icon">
+                    <i class="fab fa-instagram"></i>
+                </div>
+                Instagram
+            </a>
+        </div>
+        
+    </div>
+    
+</body>
+</html>
